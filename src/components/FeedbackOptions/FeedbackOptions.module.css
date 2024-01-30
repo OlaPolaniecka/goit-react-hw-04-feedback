@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+button:nth-last-of-type(3):hover {
+  background-color: green;
+  color: antiquewhite;
+}
+
+button:nth-last-of-type(2):hover {
+  background-color: orange;
+  color: antiquewhite;
+}
+
+button:nth-last-of-type(1):hover {
+  background-color: red;
+  color: antiquewhite;
+}
